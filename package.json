@@ -1,0 +1,19 @@
+{
+  "name": "reproduce-parcel-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel watch index.js --no-cache --target node"
+  },
+  "targets": {
+    "node": {
+      "context": "node"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
+}
